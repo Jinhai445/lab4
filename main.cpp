@@ -9,11 +9,6 @@ int main(int argc, char *argv[])
     QFont f("宋体",9);
     a.setFont(f);
     MasterView w;
-
-    // LoginView lo;
-    // WelcomeView we;
-    // we.show();
-    // lo.show();
     w.show();
     return a.exec();
 }
